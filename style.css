@@ -1,0 +1,79 @@
+.brand{
+    font-family: "Gabriela", serif;
+}
+h1{
+    font-family: "Red Rose", serif;
+    text-decoration: underline;
+}
+.class-text{
+    text-align: justify;
+}
+.contact{
+    font-family: "Vujahday Script", cursive;
+    font-size: larger;
+}
+.call{
+    font-family: "Baumans", system-ui;
+    font-size: larger;
+}
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+.footere{
+width: 100%;
+padding: 70px 30px 20px;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+.socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialicons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+.socialicons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialicons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.adress{
+    margin: 30px 0;
+}
+.adress ul{
+    list-style-type: none;
+    text-align: center;
+}
+.adress ul li a{
+    
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.adress ul li a:hover{
+    opacity: 1;
+}
+.footerbottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerbottom p{
+    color: white;
+}
